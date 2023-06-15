@@ -43,4 +43,5 @@ app.post('/store-goal', (req, res) => {
   res.redirect('/');
 });
 
+// Run server
 app.listen(5000);
